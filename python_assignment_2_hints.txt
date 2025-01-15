@@ -1,0 +1,470 @@
+---------------------------------------------------------------------INTEGER HINTS---------------------------------------------------------------------
+### Basic Operations (1-6)
+1. Remember operator precedence - multiplication before addition
+2. Use modulo operator (%)
+3. Use floor division operator (//) which discards decimal part
+4. Use either ** operator or pow() function
+5. Use abs() function
+6. Follow order of operations: parentheses first
+
+### Number System Conversions (7-12)
+7. Use int(string, base=2) for binary to decimal
+8. Use bin() function - returns string with '0b' prefix
+9. Use int(string, base=16) for hex to decimal
+10. Use hex() function - returns string with '0x' prefix
+11. Use int(string, base=8) for octal to decimal
+12. Use oct() function - returns string with '0o' prefix
+
+### Mathematical Functions (13-18)
+13. divmod() returns tuple of (quotient, remainder)
+14. Either multiply by -1 or use unary minus (-)
+15. Python's modulo with negative numbers always gives positive result if divisor is positive
+16. pow(x,y) is same as x**y
+17. round() rounds to nearest integer
+18. First subtract, then take absolute value
+
+### Integer Properties (19-24)
+19. Number is divisible if modulo returns 0
+20. Use modulo 10 to get last digit
+21. Convert to string and use len()
+22. Use modulo 2 - result 0 means even
+23. Convert to string and sum int values of each character
+24. Convert to string, use max() function
+
+### Advanced Operations (25-30)
+25. Convert to string, access first and last indices
+26. Convert to string, compare with its reverse
+27. Convert to string, multiply digits using int conversion
+28. Convert to string, count zeros from right
+29. Use bin() and count '1' characters
+30. Break down into separate operations, follow precedence
+
+---------------------------------------------------------------------FLOAT HINTS------------------------------------------------------------------------
+
+### Basic Float Operations (1-6)
+1. Use standard division operator (/)
+2. Use round(number, ndigits)
+3. Be aware of floating-point precision limitations
+4. Floor division (//) works with floats too
+5. Modulo (%) works with floats similar to integers
+6. Use abs() function
+
+### Float Conversions (7-12)
+7. Use float() function
+8. Use float() to parse string
+9. Use format() or f-string with precision
+10. float() works with boolean values
+11. Use format specification in f-strings
+12. float() handles scientific notation automatically
+
+### Float Arithmetic (13-18)
+13. Use ** operator or pow() function
+14. Note Python's rounding rules for ties
+15. Standard multiplication operator
+16. Simple subtraction
+17. Standard division
+18. pow() function works with floats
+
+### Float Properties (19-24)
+19. Use comparison operators with mixed types
+20. Be careful with float equality comparisons
+21. Use max() function
+22. Check if float modulo 1 is zero
+23. Use modulo 1 operation
+24. Use comparison with 0.0
+
+### Advanced Float Operations (25-30)
+25. Use formula: P(1 + r)^t
+26. Formula: (C * 9/5) + 32
+27. Sum all numbers and divide by count
+28. Formula: ((new-old)/old) * 100
+29. Multiply by 2, round, divide by 2
+30. Use formula: π * r²
+
+------------------------------------------------------------------STRING HINTS ----------------------------------------------------------------------
+
+### Basic String Operations (1-8)
+1. Use """ or ''' for multiline text
+2. Use len() function
+3. Use .upper() method
+4. Use .lower() method
+5. Use .strip() method
+6. Use .isalnum() method
+7. Use .startswith("Python")
+8. Use .endswith(".pdf")
+
+### String Indexing and Slicing (9-16)
+9. Use "Learning Python"[2:6]
+10. Use "Programming"[-1]
+11. Use "Python3.9"[::2]
+12. Use "Programming Language"[::-1]
+13. Use "JavaScript"[:3]
+14. Use "Python Programming"[3:8]
+15. Use "example.txt"[-3:]
+16. Use len("Python3") // 2
+
+### String Methods (17-24)
+17. Use .replace('o', '*')
+18. Use .count('p')
+19. Use .find("Python") or .index("Python")
+20. Use .split(',')
+21. Use ' '.join(list)
+22. Use .title()
+23. Use .replace('p', 'P', 1)
+24. Use iteration with .find()
+
+### String Formatting (25-32)
+25. Use .format() method
+26. Use f"Python version {version}"
+27. Use .center(20, '#')
+28. Use .ljust(10, '-')
+29. Use .rjust(5, '0')
+30. Use f"{3.14159265:.2f}"
+31. Use f"{42:04d}"
+32. Use f-string or .format()
+
+### Advanced String Operations (33-40)
+33. Compare string with reversed string
+34. Create set of 'aeiou' and count
+35. Use .title() or split/capitalize
+36. Use set() and join()
+37. Compare sorted characters
+38. Split, reverse, join words
+39. Split by '_', convert, join
+40. Split by ' ', take each element from the list and check the length using len()
+
+----------------------------------------------------------------------LISTS HINTS--------------------------------------------------------------------------
+**1. Basic List Operations**
+
+1.  Use square brackets `[]` to create a list.
+2.  Use the index of the element within square brackets to access it.
+3.  Negative indices can be used to access elements from the end of the list.
+4.  Use the index of the element within square brackets to access it.
+5.  Use square brackets `[]` to create a list.
+6.  Use square brackets `[]` to create a list.
+7.  Use square brackets `[]` to create an empty list.
+
+**2. List Modification**
+
+8.  Assign the new value to the desired index within the list.
+9.  Use the `append()` method to add an element to the end of the list.
+10. Use the `insert()` method to add an element at a specific index.
+11. Use the `remove()` method to remove the specified element.
+12. Use the `pop()` method to remove and return the last element.
+13. Use the `pop(0)` method to remove and return the first element.
+
+**3. List Slicing**
+
+14. Use slicing notation `[start:end]` to extract a sublist.
+15. Use slicing notation with negative indices to extract elements from the end.
+16. Use slicing notation with a step value to extract every other element.
+17. Use slicing notation with a step value of -1 to reverse the list.
+18. Use slicing notation `[start:end]` to extract a sublist.
+19. Use slicing notation with negative indices to extract elements from the end.
+
+**4. List Methods**
+
+20. Use the `count()` method to count the occurrences of an element.
+21. Use the `index()` method to find the index of the first occurrence.
+22. Use the `pop()` method to remove and return the last element.
+23. Use the `sort()` method to sort the list in ascending order.
+24. Use the `sort()` method to sort the list in alphabetical order.
+25. Use the `len()` function to determine the length of the list.
+26. Use the `len()` function to determine the length of the list.
+
+**5. Nested Lists**
+
+27. Use nested square brackets `[[...], ...]` to create a nested list.
+28. Use nested indexing to access the element: `nested_list[0][1]`.
+29. Use nested indexing to access the element: `nested_list[1][0]`.
+30. Use nested indexing to access the element: `nested_list[1][2]`.
+
+**6. List Operations**
+
+31. Use the `+` operator to concatenate two lists.
+32. Use the `in` operator to check if an element exists in the list.
+33. Use the `in` operator to check if an element exists in the list.
+34. Use the `in` operator to check if an element exists in the list.
+35. Use the `in` operator to check if an element exists in the list.
+
+**7. More List Operations**
+
+37. Use the `append()` method to add an element to the list.
+38. Use the `extend()` method to add multiple elements to the list.
+39. Use list slicing `[:]` to create a shallow copy of the list.
+40. Use list slicing `[:]` to create a shallow copy of the list.
+
+
+-------------------------------------------------------------------TUPLES HINTS------------------------------------------------------------------------
+
+**1. Basic Tuple Operations**
+
+1.  Use parentheses `()` to create a tuple.
+2.  Use the index of the element within square brackets to access it.
+3.  Negative indices can be used to access elements from the end of the tuple.
+4.  Use the index of the element within square brackets to access it.
+5.  Use parentheses `()` to create a tuple.
+6.  Use parentheses `()` to create a tuple.
+7.  Use empty parentheses `()` to create an empty tuple.
+
+**2. Tuple Operations**
+
+8.  Use the `+` operator to concatenate two tuples.
+9.  Use the `in` operator to check if an element exists in the tuple.
+10. Use the `in` operator to check if an element exists in the tuple.
+11. Use the `in` operator to check if an element exists in the tuple.
+12. Use the `in` operator to check if an element exists in the tuple.
+
+**3. Tuple Slicing**
+
+13. Use slicing notation `[start:end]` to extract a subtuple.
+14. Use slicing notation with negative indices to extract elements from the end.
+15. Use slicing notation with a step value to extract every other element.
+16. Use slicing notation with a step value of -1 to reverse the tuple.
+17. Use slicing notation `[start:end]` to extract a subtuple.
+18. Use slicing notation with negative indices to extract elements from the end.
+
+**4. Tuple Length**
+
+19. Use the `len()` function to determine the length of the tuple.
+20. Use the `len()` function to determine the length of the tuple.
+
+**5. Nested Tuples**
+
+21. Use nested parentheses `((...), (...))` to create a nested tuple.
+22. Use nested indexing to access the element: `nested_tuple[0][1]`.
+23. Use nested indexing to access the element: `nested_tuple[1][0]`.
+24. Use nested indexing to access the element: `nested_tuple[1][2]`.
+
+**6. Tuple Unpacking**
+
+26. Assign the first two elements of the tuple to two variables directly.
+27. Assign each element of the tuple to a separate variable.
+
+**7. Tuple Immutability**
+
+28. Tuples are immutable. You cannot change individual elements of a tuple.
+29. Tuples are immutable. You cannot add elements to a tuple.
+30. Tuples are immutable. You cannot remove elements from a tuple.
+
+
+-------------------------------------------------------------------SETS HINTS------------------------------------------------------------------------
+**1. Basic Set Operations**
+
+1.  Use curly braces `{}` to create a set.
+2.  Sets are unordered, so direct indexing is not possible.
+3.  Sets do not allow duplicates.
+4.  Use curly braces `{}` to create an empty set. However, `{}` alone creates an empty dictionary. To create an empty set, use `set()`.
+
+**2. Set Operations**
+
+5.  Use the `union()` method or the `|` operator to find the union of two sets.
+6.  Use the `intersection()` method or the `&` operator to find the intersection of two sets.
+7.  Use the `difference()` method or the `-` operator to find the difference between two sets.
+
+**3. Set Membership**
+
+8.  Use the `in` operator to check if an element exists in the set.
+9.  Use the `in` operator to check if an element exists in the set.
+10. Use the `in` operator to check if an element exists in the set.
+11. Use the `in` operator to check if an element exists in the set.
+
+**4. Set Modification**
+
+12. Use the `add()` method to add an element to the set.
+13. Use the `remove()` method to remove an element from the set.
+14. Use the `pop()` method to remove and return an arbitrary element.
+
+**5. Set Length**
+
+15. Use the `len()` function to determine the length of the set.
+16. Use the `len()` function to determine the length of the set.
+
+**6. Frozenset**
+
+17. Use the `frozenset()` constructor to create a frozenset from a set.
+18. Frozensets are immutable. You cannot modify them after creation.
+
+**7. Nested Sets**
+
+19. Sets cannot directly contain mutable objects like lists or other sets.
+
+**8. Set Operations (Continued)**
+
+20. Use the `symmetric_difference()` method or the `^` operator to find the symmetric difference of two sets.
+
+**9. More Set Operations**
+
+21. Use the `issubset()` method or the `<=` operator to check if one set is a subset of another.
+22. Use the `issuperset()` method or the `>=` operator to check if one set is a superset of another.
+
+**10. Set Operations with Mutability**
+
+23. Use the `update()` method to add elements from another set.
+24. Use the `difference_update()` method to remove elements that are also present in another set.
+
+**11. Set Operations (Advanced)**
+
+25. Combine multiple `union()` operations.
+26. Combine multiple `intersection()` operations.
+
+**12. Set Operations and Mutability (Continued)**
+
+27. Use the `add()` method to add an element to the set.
+28. Use the `remove()` or `pop()` method to remove an element from the set.
+
+**13. Set Operations (Advanced - Challenging)**
+
+29. Convert the list to a set to remove duplicates, then convert back to a list.
+30. Convert the string to a set to get unique characters, then convert back to a string.
+
+---------------------------------------------------------------DICTIONARY HINTS------------------------------------------------------------------------
+**1. Basic Dictionary Operations**
+
+1.  Use curly braces `{}` and key-value pairs (key: value) separated by commas to create a dictionary.
+2.  Use curly braces `{}` to create an empty dictionary.
+3.  Use curly braces `{}` and key-value pairs (key: value) separated by commas to create a dictionary.
+4.  Use square brackets `[]` with the key to access the corresponding value.
+5.  Use square brackets `[]` with the key to access the corresponding value.
+
+**2. Dictionary Modification**
+
+6.  Use the `update()` method or add a new key-value pair directly within the dictionary.
+7.  Assign a new value to the existing key within the dictionary.
+8.  Use the `pop()` method to remove the key-value pair.
+
+**3. Dictionary Methods**
+
+9.  Use the `keys()` method.
+10. Use the `values()` method.
+11. Use the `items()` method.
+12. Use the `in` operator to check if a key exists.
+13. Use the `in` operator to check if a key exists.
+
+**4. Dictionary Length**
+
+14. Use the `len()` function to determine the number of key-value pairs.
+15. Use the `len()` function to determine the number of key-value pairs.
+
+**5. Nested Dictionaries**
+
+16. Use nested curly braces `{{...}, {...}}` to create a nested dictionary.
+17. Use nested indexing (e.g., `nested_dict["person1"]["age"]`) to access the value.
+18. Use nested indexing (e.g., `nested_dict["person2"]["name"]`) to access the value.
+
+**6. Dictionary Operations**
+
+19. Use the `update()` method to combine two dictionaries.
+
+**7. Dictionary Views**
+
+18. Use the `keys()` method to get a view object of the keys.
+19. Use the `values()` method to get a view object of the values.
+20. Use the `items()` method to get a view object of the key-value pairs.
+
+**8. Dictionary Updates**
+
+21. Use the `update()` method to add key-value pairs from another dictionary.
+
+**9. Dictionary fromkeys()**
+
+22. Use the `fromkeys()` method with a list of keys and a default value.
+
+**10. Dictionary Clear()**
+
+23. Use the `clear()` method to remove all key-value pairs.
+
+**11. Dictionary Copy()**
+
+24. Use the `copy()` method to create a shallow copy.
+
+**12. Dictionary Get()**
+
+25. Use the `get()` method with the key.
+26. Use the `get()` method with the key and a default value.
+
+**13. Nested Dictionaries (Continued)**
+
+27. Use nested curly braces `{{...}, {...}}` to create the nested dictionary.
+28. Use nested indexing (e.g., `address_book["Alice"]["phone"]`) to access the value.
+
+**14. More Dictionary Operations**
+
+30. Check if the dictionary is empty using `if not dict:` or `if len(dict) == 0`.
+31. Use the `in` operator to check if a key exists in the dictionary.
+32. Checking for a value directly in a dictionary is not straightforward. You might need to iterate through the values.
+
+**15. Dictionary Views (Continued)**
+
+33. View objects reflect changes made to the original dictionary.
+
+**16. Dictionary Challenges**
+
+34. Iterate through the string and count the occurrences of each letter.
+35. Iterate through the sentence, split it into words, and count the occurrences of each word.
+
+**17. Dictionary Operations (Continued)**
+
+36. Create a new dictionary and iterate through the original dictionary, swapping keys and values.
+
+**18. Dictionary Views (Continued)**
+
+37. Use the `list()` function to convert a view object to a list.
+
+**19. Dictionary Challenges (Continued)**
+
+38. Create a dictionary to store the student names and their corresponding scores.
+39. Create a dictionary with English words as keys and their Spanish translations as values.
+40. Create a nested dictionary to store information about fruits.
+--------------------------------------------------------------------IF CLAUSE HINTS--------------------------------------------------------------------
+**Basic if-else**
+
+1.  Use the modulo operator (`%`) to check for divisibility by 2.
+2.  Use `if`, `elif`, and `else` to check if the number is greater than 0, less than 0, or equal to 0.
+3.  Use the `max()` function or compare the numbers directly.
+4.  Use the `min()` function or compare the numbers directly.
+5.  Use the modulo operator (`%`) to check for divisibility.
+6.  Consider the divisibility rules for leap years.
+7.  Check if the character is one of the vowels ('a', 'e', 'i', 'o', 'u').
+8.  Use the equality operator (`==`) to check if two numbers are equal.
+9.  Use the inequality operator (`!=`) to check if two strings are not equal.
+10. Use the greater than operator (`>`) to check if the first number is greater than the second.
+
+**if-elif-else**
+
+11. Use `if`, `elif`, and `else` to define ranges for each grade.
+12. Use `if`, `elif`, and `else` to map each number to a day of the week.
+13. Use `if`, `elif`, and `else` to determine the action based on the traffic light color.
+14. Use `if`, `elif`, and `else` to map each month number to its corresponding name.
+15. Use `if`, `elif`, and `else` to define time ranges for morning, afternoon, evening, and night.
+16. Check if the sum of any two sides is greater than the third side.
+17. Use `if`, `elif`, and `else` to compare the numbers.
+18. Check if the number is divisible by any number other than 1 and itself.
+19. Check if the number is the same when read forwards and backwards.
+20. Check if the sum of its proper divisors is equal to the number itself.
+
+**Nested if-else**
+
+21. Use nested `if` statements to check if each number is greater than 0.
+22. Use nested `if` statements to check both conditions.
+23. Use nested `if` statements to check for leap year and century year conditions.
+24. Use nested `if` statements to check if it's an uppercase letter and then check if it's a vowel.
+
+**More Complex Scenarios**
+
+25. Use `if`, `elif`, and `else` to define grade point values for each letter grade.
+26. Use `if`, `elif`, and `else` to define tax brackets and calculate tax accordingly.
+27. Use `if`, `elif`, and `else` to check age and country-specific eligibility criteria.
+28. Use `if`, `elif`, and `else` to check the validity of month, day, and year combinations.
+29. Use `if`, `elif`, and `else` to check the validity of hour, minute, and second values.
+30. Use `if`, `elif`, and `else` to define different shipping costs based on weight ranges.
+31. Use `if`, `elif`, and `else` to determine the season based on the month.
+32. Use `if`, `elif`, and `else` to check for minimum length, presence of special characters, etc.
+33. Use `if`, `elif`, and `else` to check for age-based discounts and purchase amount-based discounts.
+34. Use the `find()` method to check if the "@" symbol is present in the email address.
+35. Use string slicing to check if the phone number starts with the specific area code.
+36. This requires more complex calculations or the use of a calendar module (not covered in these questions).
+37. Calculate BMI using the formula and then use `if`, `elif`, and `else` to categorize the BMI.
+38. Use `if`, `elif`, and `else` to check for equal sides and determine the triangle type.
+39. Use `if`, `elif`, and `else` to compare the scores and determine the winner.
+40. Use `if`, `elif`, and `else` to define different price ranges for different units consumed.
