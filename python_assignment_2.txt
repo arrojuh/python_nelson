@@ -1,0 +1,515 @@
+
+---------------------------------------------------------------------INTEGER QUESTIONS---------------------------------------------------------------------
+
+
+### Basic Operations (1-6)
+1. Calculate the result of 45 + (-23) * 2.
+2. Find the remainder when 127 is divided by 5.
+3. What is the quotient when 85 is divided by 4 using floor division?
+4. Calculate the result of 2 raised to the power of 8.
+5. Find the absolute value of -156.
+6. Calculate the result of 7 * (15 - 3) + 2.
+
+### Number System Conversions (7-12)
+7. Convert the binary string '1010' to decimal integer.
+8. Convert decimal number 255 to binary.
+9. Convert the hexadecimal string 'FF' to decimal.
+10. Convert decimal 100 to hexadecimal.
+11. Convert octal string '77' to decimal.
+12. Convert decimal 255 to octal.
+
+### Mathematical Functions (13-18)
+13. What is the result of divmod(85, 4)?
+14. Calculate the negative value of positive integer 45.
+15. What is the result of -45 % 7?
+16. Find the result of pow(3, 4).
+17. What is the value of round(7/2)?
+18. Calculate abs(45 - 123).
+
+### Integer Properties (19-24)
+19. Is 456789 divisible by 3? (Use modulo)
+20. Find the last digit of 98765.
+21. Calculate the number of digits in 123456.
+22. Is 2468 even? (Use modulo)
+23. Calculate the sum of digits in 12345.
+24. Find the largest digit in 98765.
+
+### Advanced Operations (25-30)
+25. Calculate the sum of first and last digits of 12345.
+26. Is 12321 a palindrome? (Convert to string and check)
+27. Calculate the product of digits in 1234.
+28. Find the number of trailing zeros in 1000.
+29. Convert decimal 42 to binary and count the 1's.
+30. Calculate (17 * 5) + (17 // 5) - (17 % 5).
+
+---------------------------------------------------------------------FLOAT QUESTIONS------------------------------------------------------------------------
+
+
+### Basic Float Operations (1-6)
+1. Calculate the exact result of 15.0 / 4.0
+2. Round 3.14159 to 2 decimal places
+3. Calculate the result of 0.1 + 0.2
+4. Find the floor division result of 17.8 // 4.0
+5. Calculate the remainder of 15.7 % 3.0
+6. Compute the absolute value of -45.67
+
+### Float Conversions (7-12)
+7. Convert integer 5 to float
+8. Convert string "3.14159" to float
+9. Convert float 123.456 to string with 2 decimal places
+10. Convert boolean True to float
+11. Format 3.14159 as string with 4 decimal places
+12. Convert scientific notation "1.23e-4" to float
+
+### Float Arithmetic (13-18)
+13. Calculate 2.5 ** 3 (power operation)
+14. Find the result of round(4.5)
+15. Compute 7.5 * 2.0
+16. Calculate the difference between 9.9 and 1.1
+17. Find the value of 10.5 / 3.0
+18. Calculate pow(1.5, 2.0)
+
+### Float Properties (19-24)
+19. Check if 3.5 is greater than 3
+20. Determine if 4.0 is equal to 4
+21. Find the largest of 3.14, 3.141, 3.1415
+22. Check if a float is whole number (e.g., 5.0)
+23. Calculate the fractional part of 5.73
+24. Determine if float is positive, negative, or zero
+
+### Advanced Float Operations (25-30)
+25. Calculate compound interest with float amounts
+26. Convert temperature from Celsius to Fahrenheit (use float)
+27. Calculate the average of 5 float numbers
+28. Compute the percentage increase from 100 to 150
+29. Round 3.5555 to nearest 0.5
+30. Calculate the area of a circle with radius 2.5
+
+------------------------------------------------------------------STRING QUESTIONS ----------------------------------------------------------------------
+
+### Basic String Operations (1-8)
+1. Create a multiline string containing:
+   ```
+   Python is amazing!
+   I love programming.
+   Learning is fun.
+   ```
+2. Find the length of "Python Programming Workshop 2024"
+3. Convert "hello world python" to uppercase
+4. Convert "PYTHON PROGRAMMING" to lowercase
+5. Remove whitespace from "    Python is Amazing!    "
+6. Check if "Python2024" is alphanumeric
+7. Check if "Python_Programming" starts with "Python"
+8. Check if "example.pdf" ends with ".pdf"
+
+### String Indexing and Slicing (9-16)
+9. Extract characters from index 2 to 5 from "Learning Python"
+10. Get the last character from "Programming"
+11. Extract every second character from "Python3.9"
+12. Get the reverse of "Programming Language"
+13. Extract first three characters from "JavaScript"
+14. Get substring between indices 3 and 7 in "Python Programming"
+15. Extract last three characters from "example.txt"
+16. Get middle character of "Python3"
+
+### String Methods (17-24)
+17. Replace all 'o' with '*' in "Hello World Program"
+18. Count occurrences of 'p' in "python programming practice"
+19. Find the index of "Python" in "Learn Python Programming with Python"
+20. Split string "apple,banana,orange,grape" by comma
+21. Join list ["Python", "is", "awesome"] with space
+22. Convert "python programming course" to title case
+23. Replace first occurrence of 'p' with 'P' in "python program practice"
+24. Find all indices of 'a' in "banana apple mango"
+
+### String Formatting (25-32)
+25. Format "{} costs {} dollars".format("Laptop", 999.99)
+26. Create f-string with variables: name="Python", version=3.9
+27. Center "Python" in 20 characters with '#'
+28. Left justify "Files" in 10 characters with '-'
+29. Right justify "100" in 5 characters with '0'
+30. Format π=3.14159265 to 2 decimal places
+31. Format number=42 to '0042'
+32. Format: name="John", age=25, city="New York" in "Name: ___, Age: ___, City: ___"
+
+### Advanced String Operations (33-40)
+33. Check if "radar" is a palindrome
+34. Count vowels in "Python Programming"
+35. Convert each word's first letter to uppercase in "python is amazing"
+36. Remove all duplicates from "programming"
+37. Check if "listen" and "silent" are anagrams
+38. Reverse words in "Python is amazing"
+39. Convert "user_name_input" to "userNameInput"
+40. Find the longest word in "Python is a great programming language"
+
+----------------------------------------------------------------------LISTS QUESTIONS----------------------------------------------------------------------
+
+**1. Basic List Operations**
+
+1.  Create a list named `my_list` containing the integers 1, 5, -3, and 0.
+2.  Access and print the second element of the list `my_list`.
+3.  Access and print the last element of the list `my_list`.
+4.  Access and print the element at index 2 of the list `my_list`.
+5.  Create a list named `numbers` containing the numbers 10, 20, 30, and 40.
+6.  Create a list named `fruits` containing the strings "apple", "banana", "orange", and "grape".
+7.  Create an empty list named `empty_list`.
+
+**2. List Modification**
+
+8.  Replace the first element of `my_list` with the value 10.
+9.  Add the number 7 to the end of the list `my_list`.
+10. Insert the value 2 at the beginning of the list `my_list`.
+11. Remove the number 0 from the list `my_list`.
+12. Remove the last element from the list `numbers`.
+13. Remove the first element from the list `fruits`.
+
+**3. List Slicing**
+
+14. Create a new list containing the first two elements of `my_list`.
+15. Create a new list containing the last three elements of `numbers`.
+16. Create a new list containing every other element of `my_list`.
+17. Create a new list that is a copy of `my_list` in reverse order.
+18. Create a new list containing the first three elements of `fruits`.
+19. Create a new list containing the last two elements of `numbers`.
+
+**4. List Methods**
+
+20. Determine the number of times the value 5 appears in `my_list`.
+21. Find the index of the first occurrence of the value -3 in `my_list`.
+22. Remove and return the last element of `my_list`.
+23. Sort the list `numbers` in ascending order.
+24. Sort the list `fruits` in alphabetical order.
+25. Determine the length of the list `numbers`.
+26. Determine the length of the list `fruits`.
+
+**5. Nested Lists**
+
+27. Create a nested list where the first sublist contains the numbers 1, 2, and 3, and the second sublist contains the strings "a", "b", and "c".
+28. Access and print the second element of the first sublist in the nested list. 
+29. Access and print the first element of the second sublist in the nested list. 
+30. Create a nested list: `nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]` 
+31. Access and print the third element of the second sublist in the nested list `nested_list`.
+
+**6. List Operations**
+
+32. Concatenate two lists: `list1 = [1, 2]` and `list2 = [3, 4]`.
+33. Check if the number 5 is present in the list `my_list`.
+34. Check if the string "hello" is present in the list `["world", "python", "java"]`.
+35. Check if the string "banana" is present in the list `fruits`.
+36. Check if the number 50 is present in the list `numbers`.
+
+**7. More List Operations**
+
+37. Create a new list by appending the number 5 to the list `numbers`.
+38. Create a new list by extending the list `fruits` with the string "mango". 
+39. Create a new list by copying the list `my_list`. 
+40. Create a new list by creating a shallow copy of the list `numbers`. 
+
+-------------------------------------------------------------------TUPLES QUESTIONS------------------------------------------------------------------------
+
+**1. Basic Tuple Operations**
+
+1.  Create a tuple named `my_tuple` containing the integers 1, 5, -3, and 0.
+2.  Access and print the second element of the tuple `my_tuple`.
+3.  Access and print the last element of the tuple `my_tuple`.
+4.  Access and print the element at index 2 of the tuple `my_tuple`.
+5.  Create a tuple named `numbers` containing the numbers 10, 20, 30, and 40.
+6.  Create a tuple named `fruits` containing the strings "apple", "banana", "orange", and "grape".
+7.  Create an empty tuple named `empty_tuple`.
+
+**2. Tuple Operations**
+
+8.  Concatenate two tuples: `tuple1 = (1, 2)` and `tuple2 = (3, 4)`.
+9.  Check if the number 5 is present in the tuple `my_tuple`.
+10. Check if the string "hello" is present in the tuple `("world", "python", "java")`.
+11. Check if the string "banana" is present in the tuple `fruits`.
+12. Check if the number 50 is present in the tuple `numbers`.
+
+**3. Tuple Slicing**
+
+13. Create a new tuple containing the first two elements of `my_tuple`.
+14. Create a new tuple containing the last three elements of `numbers`.
+15. Create a new tuple containing every other element of `my_tuple`.
+16. Create a new tuple that is a copy of `my_tuple` in reverse order.
+17. Create a new tuple containing the first three elements of `fruits`.
+18. Create a new tuple containing the last two elements of `numbers`.
+
+**4. Tuple Length**
+
+19. Determine the length of the tuple `numbers`.
+20. Determine the length of the tuple `fruits`.
+
+**5. Nested Tuples**
+
+21. Create a nested tuple where the first subtuple contains the numbers 1, 2, and 3, and the second subtuple contains the strings "a", "b", and "c".
+22. Access and print the second element of the first subtuple in the nested tuple.
+23. Access and print the first element of the second subtuple in the nested tuple.
+24. Create a nested tuple: `nested_tuple = ((1, 2, 3), (4, 5, 6), (7, 8, 9))`
+25. Access and print the third element of the second subtuple in the nested tuple `nested_tuple`.
+
+**6. Tuple Unpacking**
+
+26. Unpack the first two elements of the tuple `numbers` into two variables.
+27. Unpack all the elements of the tuple `fruits` into individual variables.
+
+**7. Tuple Immutability**
+
+28. Try to modify the first element of the tuple `my_tuple` (this should result in an error).
+29. Try to add an element to the end of the tuple `numbers` (this should result in an error).
+30. Try to remove the first element from the tuple `fruits` (this should result in an error).
+
+-------------------------------------------------------------------SET QUESTIONS------------------------------------------------------------------------
+
+**1. Basic Set Operations**
+
+1. Create a set named `my_set` containing the integers 1, 5, -3, and 0.
+2. Create a set named `numbers` containing the numbers 10, 20, 30, and 10.
+3. Create a set named `fruits` containing the strings "apple", "banana", "orange", and "apple".
+4. Create an empty set named `empty_set`. 
+
+**2. Set Operations**
+
+5.  Create a new set that is the union of two sets: `set1 = {1, 2}` and `set2 = {2, 3}`.
+6.  Create a new set that is the intersection of two sets: `set1 = {1, 2, 3}` and `set2 = {2, 3, 4}`.
+7.  Create a new set that contains elements from `set1` that are not in `set2`: `set1 = {1, 2, 3}` and `set2 = {2, 3}`.
+
+**3. Set Membership**
+
+8.  Check if the number 5 is present in the set `my_set`.
+9.  Check if the string "hello" is present in the set `{"world", "python", "java"}`.
+10. Check if the string "banana" is present in the set `fruits`.
+11. Check if the number 50 is present in the set `numbers`.
+
+**4. Set Modification**
+
+12. Add the number 7 to the set `my_set`.
+13. Remove the number 0 from the set `my_set`.
+14. Remove an arbitrary element from the set `numbers`.
+
+**5. Set Length**
+
+15. Determine the length of the set `numbers`.
+16. Determine the length of the set `fruits`.
+
+**6. Frozenset**
+
+17. Create a frozenset from the set `my_set`.
+18. Try to add an element to the frozenset (this should result in an error).
+
+**7. Nested Sets**
+
+19. **Note:** Sets cannot directly contain other mutable objects like lists or dictionaries. 
+
+**8. Set Operations (Continued)**
+
+20. Create a new set that is the symmetric difference of two sets: `set1 = {1, 2, 3}` and `set2 = {2, 3, 4}`.
+
+**9. More Set Operations**
+
+21. Check if `set1` is a subset of `set2`: `set1 = {1, 2}` and `set2 = {1, 2, 3}`.
+22. Check if `set1` is a superset of `set2`: `set1 = {1, 2, 3}` and `set2 = {1, 2}`.
+
+**10. Set Operations with Mutability**
+
+23. Update the set `my_set` by adding the elements from another set: `other_set = {4, 5}`.
+24. Update the set `numbers` by removing the elements that are also present in another set: `other_set = {10, 20}`.
+
+**11. Set Operations (Advanced)**
+
+25. Create a new set that is the union of three sets: `set1 = {1, 2}`, `set2 = {2, 3}`, and `set3 = {3, 4}`.
+26. Create a new set that is the intersection of three sets: `set1 = {1, 2, 3}`, `set2 = {2, 3, 4}`, and `set3 = {3, 4, 5}`.
+
+**12. Set Operations and Mutability (Continued)**
+
+27. Update the set `fruits` by adding a new element.
+28. Update the set `numbers` by removing an arbitrary element.
+
+**13. Set Operations (Advanced - Challenging)**
+
+29. Create a new set that contains all the unique elements from a list of numbers: `numbers_list = [1, 2, 2, 3, 3, 3, 4, 4]`
+30. Create a new set that contains all the unique characters in a string: `my_string = "hello"`
+
+---------------------------------------------------------------DICTIONARY QUESTIONS------------------------------------------------------------------------
+**1. Basic Dictionary Operations**
+
+1.  Create a dictionary named `my_dict` with the following key-value pairs: 
+    *   "name": "Alice"
+    *   "age": 30
+    *   "city": "New York" 
+    *   Access and print the value associated with the key "name" in `my_dict`.
+
+2.  Create a dictionary named `empty_dict`.
+
+3.  Create a dictionary named `numbers` with keys as strings ("one", "two", "three") and corresponding integer values (1, 2, 3). 
+    *   Access and print the value associated with the key "two" in `numbers`.
+
+4.  Access and print the value associated with the key "age" in `my_dict`.
+
+**2. Dictionary Modification**
+
+5.  Add a new key-value pair to `my_dict`: "occupation": "Engineer"
+
+6.  Modify the value associated with the key "age" in `my_dict` to 31.
+
+7.  Remove the key-value pair with the key "city" from `my_dict`.
+
+**3. Dictionary Methods**
+
+8.  Get all the keys of `my_dict`.
+
+9.  Get all the values of `my_dict`.
+
+10. Get all the key-value pairs of `my_dict`.
+
+**4. Dictionary Length**
+
+13. Determine the number of key-value pairs in `my_dict`.
+
+14. Determine the number of key-value pairs in `numbers`.
+
+**5. Nested Dictionaries**
+
+15. Create a nested dictionary where the outer dictionary has keys "person1" and "person2", and each inner dictionary represents a person with keys "name" and "age":
+    *   `nested_dict = {
+            "person1": {"name": "Alice", "age": 25},
+            "person2": {"name": "Bob", "age": 30}
+        }`
+    *   Access and print the value associated with the key "age" for "person1" in the nested dictionary.
+
+16. Access and print the value associated with the key "name" for "person2" in the nested dictionary.
+
+**6. Dictionary Operations**
+
+17. Concatenate two dictionaries: `dict1 = {"a": 1, "b": 2}` and `dict2 = {"c": 3, "d": 4}`.
+
+**7. Dictionary Views**
+
+18. Get a view object containing the keys of the `numbers` dictionary.
+
+19. Get a view object containing the values of the `my_dict` dictionary.
+
+20. Get a view object containing the key-value pairs of the `numbers` dictionary.
+
+**8. Dictionary Updates**
+
+21. Update the `my_dict` with the contents of another dictionary: `new_dict = {"country": "USA"}`
+
+**9. Dictionary fromkeys()**
+
+22. Create a dictionary with keys from a list and a default value: `keys = ["a", "b", "c"]`, `default_value = 0`
+
+**10. Dictionary Clear()**
+
+23. Remove all key-value pairs from `my_dict`.
+
+**11. Dictionary Copy()**
+
+24. Create a shallow copy of `my_dict`.
+
+**12. Dictionary Get()**
+
+25. Get the value associated with the key "name" in `my_dict` using the `get()` method.
+
+26. Get the value associated with the key "country" in `my_dict` using the `get()` method (using a default value if the key is not found).
+
+**13. Nested Dictionaries (Continued)**
+
+27. Create a nested dictionary representing a simple address book, where each key is a person's name and the corresponding value is another dictionary containing keys like "address", "phone", and "email":
+    *   `address_book = {
+            "Alice": {"address": "123 Main St", "phone": "555-1234", "email": "[email address removed]"},
+            "Bob": {"address": "456 Oak Ave", "phone": "555-5678", "email": "[email address removed]"}
+        }`
+    *   Access and print the phone number of "Alice" from the address book.
+
+**14. More Dictionary Operations**
+
+30. Check if a dictionary is empty.
+
+**15. Dictionary Views (Continued)**
+
+33. Check if a view object of a dictionary is modified when the original dictionary is modified.
+
+**16. Dictionary Challenges**
+
+34. Create a dictionary to store the frequency of each letter in a given string: `my_string = "hello"`
+
+35. Create a dictionary to store the count of occurrences of each word in a given sentence: `sentence = "This is a sentence."`
+
+**17. Dictionary Operations (Continued)**
+
+36. Create a new dictionary by swapping the keys and values of an existing dictionary: 
+    *   `original_dict = {"a": 1, "b": 2}` 
+
+**18. Dictionary Views (Continued)**
+
+37. Convert a view object of a dictionary to a list.
+
+**19. Dictionary Challenges (Continued)**
+
+38. Create a dictionary to store the name and scores of students in a class:
+    *   `student_scores = {"Alice": 90, "Bob": 85, "Charlie": 95}`
+
+39. Create a dictionary to store the mapping between English words and their other languagetranslations:
+example
+    *   `translations = {"hello": "hola", "world": "mundo", "thank you": "gracias"}`
+
+40. Create a dictionary to store the information about different fruits (e.g., color, taste, season):
+    *  example::: 
+	`fruits = {
+            "apple": {"color": "red", "taste": "sweet", "season": "fall"},
+            "banana": {"color": "yellow", "taste": "sweet", "season": "year-round"},
+            "orange": {"color": "orange", "taste": "sweet", "season": "winter"}
+        }`
+-------------------------------------------------------------------------IF CLAUSE QUESTIONS---------------------------------------------------------------
+
+**Basic if-else**
+
+1.  **Check Even/Odd:** Given an integer, check if it is even or odd.
+2.  **Positive/Negative/Zero:** Given a number, check if it is positive, negative, or zero.
+3.  **Maximum of Two Numbers:** Given two numbers, find the maximum of the two.
+4.  **Minimum of Two Numbers:** Given two numbers, find the minimum of the two.
+5.  **Check Divisibility:** Given two integers, check if the first number is divisible by the second.
+6.  **Leap Year:** Given a year, check if it is a leap year.
+7.  **Check Vowel/Consonant:** Given a single character, check if it's a vowel or a consonant. 
+8.  **Check for Equality:** Given two numbers, check if they are equal.
+9.  **Check for Inequality:** Given two strings, check if they are not equal.
+10. **Check for Greater Than:** Given two numbers, check if the first number is greater than the second.
+
+**if-elif-else**
+
+11. **Grade Calculation:** Given a student's score, assign a grade (A, B, C, D, or F) based on the score.
+12. **Day of the Week:** Given a number (1-7), print the corresponding day of the week.
+13. **Traffic Light:** Given the color of a traffic light, print the corresponding action (go, stop, or wait).
+14. **Month Name:** Given a month number (1-12), print the corresponding month name.
+15. **Time of Day:** Given an hour, determine if it's morning, afternoon, evening, or night.
+16. **Check for Triangle:** Given three sides of a triangle, determine if it's valid (possible to form a triangle).
+17. **Find Largest of Three Numbers:** Given three numbers, find the largest among them.
+18. **Check for Prime Number:** Given a number, check if it's a prime number.
+19. **Check for Palindrome:** Given a number, check if it's a palindrome.
+20. **Check for Perfect Number:** Given a number, check if it's a perfect number.
+
+**Nested if-else**
+
+21. **Nested Conditions:** Given three numbers, check if all three numbers are positive.
+22. **Nested Conditions:** Given a number, check if it's between 1 and 10, and also check if it's even.
+23. **Nested Conditions:** Given a year, check if it's a leap year and if it's also a century year.
+24. **Nested Conditions:** Given a character, check if it's an uppercase letter, and if it's a vowel.
+
+**More Complex Scenarios**
+
+25. **Calculate Grade Points:** Given a letter grade (A, B, C, D, F), calculate the corresponding grade points (e.g., A = 4, B = 3).
+26. **Calculate Income Tax:** Given an annual income, calculate the income tax based on tax brackets.
+27. **Determine Eligibility:** Given an age and a country, determine if a person is eligible to vote.
+28. **Check for Valid Date:** Given a month, day, and year, check if it's a valid date.
+29. **Check for Valid Time:** Given an hour, minute, and second, check if it's a valid time.
+30. **Calculate Shipping Cost:** Given the weight of a package, calculate the shipping cost based on weight ranges.
+31. **Determine Season:** Given a month, determine the season (spring, summer, fall, winter).
+32. **Check for Valid Password:** Given a password, check if it meets certain criteria (length, complexity).
+33. **Determine Eligibility for Discount:** Given a customer's age and purchase amount, determine if they are eligible for a discount.
+34. **Check for Valid Email:** Given an email address, check if it contains the "@" symbol.
+35. **Check for Valid Phone Number:** Given a phone number, check if it starts with a specific area code.
+36. **Determine Day of the Week (More Complex):** Given a date (month, day, year), determine the day of the week (Sunday, Monday, etc.). 
+37. **Calculate BMI:** Given a person's height and weight, calculate their BMI and determine their weight category.
+38. **Check for Valid Triangle Type:** Given three sides of a triangle, determine if it's an equilateral, isosceles, or scalene triangle.
+39. **Determine Winner in a Game:** Given the scores of two players, determine the winner of the game.
+40. **Calculate Electricity Bill:** Given the number of units consumed, calculate the electricity bill based on a tiered pricing system.
