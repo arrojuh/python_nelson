@@ -20,7 +20,42 @@ for i in ['a','b','c','d']:
 
 dict1 ={'a':1,'b':2,'c':3}
 
+for key in dict1.keys():
+    print(key)
+
+for value in dict1.values():
+    print(value)
+
 for key,value in dict1.items():
     print(key,value)
 
+for i in range(1,5):
+    for j in range(i,9):
+        print(i,";",j)
 
+
+# WHILE LOOP
+
+'''while conditon:
+        do something''' # it works until the condition is true and stops when its false
+
+
+num = 0
+while num>10:
+    print(num)
+    num = num+1#equals to num +=1
+
+
+cond = True
+num = 0
+while cond:
+    print(num)
+    if num == 20:
+        cond = False
+    num = num+1
+
+
+    
+
+
+print(dict1.keys(),dict1.values(),dict1.items())
