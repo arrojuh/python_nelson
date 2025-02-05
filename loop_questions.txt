@@ -1,0 +1,87 @@
+
+
+### **Basic Questions (1-20)**  
+
+1. Write a `for` loop to print numbers from 1 to 10.  
+2. Write a `while` loop to print numbers from 1 to 10.  
+3. Use a `for` loop to print all even numbers between 1 and 20.  
+4. Use a `while` loop to print all even numbers between 1 and 20.  
+5. Write a loop to print the square of numbers from 1 to 10.  
+6. Print all the characters in the string `"Python"` using a `for` loop.  
+7. Reverse a string using a `for` loop.  
+8. Count the number of vowels in a given string using a `for` loop.  
+9. Print the first 10 natural numbers using a `while` loop.  
+10. Write a `while` loop that prints numbers from 10 to 1 in descending order.  
+11. Print numbers from 1 to 100, but stop the loop when the number reaches 50.  
+12. Use a `for` loop to print the sum of numbers from 1 to 100.  
+13. Use a `while` loop to print the sum of numbers from 1 to 100.  
+14. Write a program using a `while` loop to keep taking input from the user until they enter `"exit"`.  
+15. Use a `for` loop to print the multiplication table of 5.  
+16. Use a `while` loop to print the multiplication table of 7.  
+17. Write a loop to print numbers from 1 to 50, but skip numbers divisible by 5.  
+18. Write a loop to count the number of digits in a given number.  
+19. Write a loop to check if a given number is a palindrome.  
+20. Write a loop to calculate the factorial of a number.  
+
+---
+
+### **Intermediate Questions (21-40)**  
+
+21. Write a program to find the sum of all digits of a number using a loop.  
+22. Print Fibonacci series up to `n` terms using a `for` loop.  
+23. Print Fibonacci series up to `n` terms using a `while` loop.  
+24. Find the largest element in a list using a `for` loop.  
+25. Find the smallest element in a list using a `for` loop.  
+26. Write a program to count the number of words in a given sentence using a `for` loop.  
+27. Given a list of numbers, count how many numbers are even using a `for` loop.  
+28. Write a program to remove all vowels from a given string using a `for` loop.  
+29. Find the sum of all even numbers from 1 to 100 using a loop.  
+30. Find the sum of all odd numbers from 1 to 100 using a loop.  
+31. Write a loop to check if a given number is prime.  
+32. Write a program to reverse a given number using a `while` loop.  
+33. Write a program to find the greatest common divisor (GCD) of two numbers using a loop.  
+34. Write a program to convert a decimal number to binary using a loop.  
+35. Print the following pattern using a loop:  
+    ```
+    *
+    **
+    ***
+    ****
+    *****
+    ```  
+36. Modify the previous program to print an inverted pattern:  
+    ```
+    *****
+    ****
+    ***
+    **
+    *
+    ```  
+37. Use a loop to find the second largest element in a list.  
+38. Write a loop to generate the first `n` prime numbers.  
+39. Implement a guessing game where the user must guess a number between 1 and 100, and the loop continues until they guess correctly.  
+40. Write a program that prints numbers from 1 to 50 but replaces multiples of 3 with `"Fizz"`, multiples of 5 with `"Buzz"`, and multiples of both 3 and 5 with `"FizzBuzz"`.  
+
+---
+
+### **Advanced Questions (41-50)**  
+
+41. Write a loop to check if a given number is an Armstrong number.  
+42. Implement a loop to compute the power of a number without using the `**` operator.  
+43. Write a loop that extracts all prime numbers from a given list.  
+44. Write a loop to sort a list using the bubble sort algorithm.  
+45. Implement a loop to find the longest word in a sentence.  
+46. Implement a loop that finds the mode (most frequently occurring element) in a list.  
+47. Use nested loops to print the following pattern:  
+    ```
+    1  
+    1 2  
+    1 2 3  
+    1 2 3 4  
+    1 2 3 4 5  
+    ```  
+48. Write a loop to implement the Collatz sequence (if n is even, `n = n / 2`; if n is odd, `n = 3n + 1`) and stop when `n` reaches 1.  
+49. Implement a loop to generate Pascal’s Triangle up to `n` rows.  
+50. Write a program that simulates a basic ATM machine, allowing the user to deposit, withdraw, and check balance in a loop until they choose to exit.  
+
+---
