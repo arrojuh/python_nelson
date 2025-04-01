@@ -86,3 +86,12 @@ use the following notation to mark your position
 7) after every run we need to check for winning
 8) make sure the input is within the ranges('x' and 'o' for markers and 1-9 for positions)
 '''
+
+dict1 = {'1':' ','2':' ','3':' ','t':'|'}
+
+print(dict1['1'],dict1['t'],dict1['2'],dict1['t'],dict1['3'])
+
+player_1 = int(input('enter 1,2,3')) ## x
+
+dict1[str(player_1)]= 'x'
+print(dict1['1'],dict1['t'],dict1['2'],dict1['t'],dict1['3'])
